@@ -1,0 +1,378 @@
+
+@font-face {
+  font-family: "Franklin Gothic Medium";
+  src: url("../fonts/FranklinGothic-Medium.woff"), url("../fonts/FranklinGothic-Medium.woff2"), url("../fonts/FranklinGothic-Medium.ttf"), url("../fonts/FranklinGothic-Medium.eot");
+}
+
+ .topnav {
+   background-color: #333;
+   overflow: hidden;
+   -webkit-box-shadow: 14px 14px 8px -2px rgba(34, 60, 80, 0.24);
+   -moz-box-shadow: 14px 14px 8px -2px rgba(34, 60, 80, 0.24);
+   box-shadow: 14px 14px 8px -2px rgba(34, 60, 80, 0.24);
+  animation: myAnim1 2s ease 0s 1 normal forwards;
+ }
+
+ /* Style the links inside the navigation bar */
+ .topnav a {
+   float: left;
+   display: block;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 20px;
+   text-decoration: none;
+   font-size: 17px;
+  font-family: 'Franklin Gothic Medium';
+ }
+
+ /* Change the color of links on hover */
+ .topnav a:hover {
+   background-color: #ddd;
+   color: black;
+ }
+
+ /* Add an active class to highlight the current page */
+ .active {
+   background-color: #4CAF50;
+   color: white;
+ }
+
+ /* Hide the link that should open and close the topnav on small screens */
+ .topnav .icon {
+   display: none;
+ }
+
+ .background {
+  background-color: chocolate;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ .fon{
+  background-image: url("../img/fon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+    .fon1 {
+      background-image: url("../img/fon1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+
+    .background_main {
+      background-image: url("../img/family.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 20px;
+      cursor: move;
+    } 
+
+ h1 {
+   background: linear-gradient(red, black, black);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-size: 55px;
+   -webkit-text-shadow: -9px 9px 5px rgba(0, 0, 0, 0.2);
+   -moz-text-shadow: -9px 9px 5px rgba(0, 0, 0, 0.2);
+   text-shadow: -9px 9px 5px rgba(0, 0, 0, 0.2);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+ }
+
+ .font {
+   background: white;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -webkit-text-shadow: -9px 9px 5px rgba(0, 0, 0, 0.2);
+   -moz-text-shadow: -9px 9px 5px rgba(0, 0, 0, 0.2);
+   text-shadow: -9px 9px 5px rgba(0, 0, 0, 0.2);
+   font-size: 26px;
+   font-family: 'Courier New', Courier, monospace;
+   text-indent: 5%;
+ }
+
+       .Z {
+      float: right; /* Обтекание картинки по левому краю */
+      padding-right: 100px; /* Отступ слева */
+      padding-top: 25px; /* Отступ снизу */
+      width: 300px;
+      height: 300px;
+      opacity: 0.8;
+      filter: blur(1px);
+      animation: myAnimZ 2s ease 0s 1 normal forwards;
+   }
+   .img_scientific{
+    height: 120px;
+    width: 350px;
+    opacity: 0.9;
+    float: right;
+    padding-right: 100px;
+    padding-top: 0%;
+   }
+       .img_kusa {
+      float: left; /* Обтекание картинки по левому краю */
+      padding-right: 5px; /* Отступ слева */
+      padding-bottom: 5px; /* Отступ снизу */
+      border-radius: 50px;
+      opacity: 0.8;
+   }
+
+    .img_kopeysk {
+      float: right; /* Обтекание картинки по левому краю */
+      padding-left: 5px; /* Отступ слева */
+      padding-bottom: 5px; /* Отступ снизу */
+      border-radius: 50px;
+      opacity: 0.8;
+   }
+
+   .background_div{
+    background-image: url("../img/backgroung_menu.jpg");
+   }
+
+    
+        .left {
+          background: white;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          -webkit-text-shadow: -9px 9px 5px rgba(0, 0, 0, 0.2);
+          -moz-text-shadow: -9px 9px 5px rgba(0, 0, 0, 0.2);
+          text-shadow: -9px 9px 5px rgba(0, 0, 0, 0.2);
+          font-size: 26px;
+          font-family: 'Courier New', Courier, monospace;
+          text-indent: 5%;
+          position: absolute;
+          left: 0;
+          margin: 0;
+          padding: 0;
+          width: 49%;
+          animation: myAnimLeft 2s ease 0s 1 normal forwards;
+        }
+        @keyframes myAnimLeft {
+          0% {
+            animation-timing-function: ease-in;
+            opacity: 0;
+            transform: translateX(-250px);
+          }
+
+          38% {
+            animation-timing-function: ease-out;
+            opacity: 1;
+            transform: translateX(0);
+          }
+
+          55% {
+            animation-timing-function: ease-in;
+            transform: translateX(-68px);
+          }
+
+          72% {
+            animation-timing-function: ease-out;
+            transform: translateX(0);
+          }
+
+          81% {
+            animation-timing-function: ease-in;
+            transform: translateX(-28px);
+          }
+
+          90% {
+            animation-timing-function: ease-out;
+            transform: translateX(0);
+          }
+
+          95% {
+            animation-timing-function: ease-in;
+            transform: translateX(-8px);
+          }
+
+          100% {
+            animation-timing-function: ease-out;
+            transform: translateX(0);
+          }
+        }
+    
+        .right {
+          background: white;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          -webkit-text-shadow: -9px 9px 5px rgba(0, 0, 0, 0.2);
+          -moz-text-shadow: -9px 9px 5px rgba(0, 0, 0, 0.2);
+          text-shadow: -9px 9px 5px rgba(0, 0, 0, 0.2);
+          font-size: 26px;
+          font-family: 'Courier New', Courier, monospace;
+          text-indent: 5%;
+          position: absolute;
+          right: 0;
+          margin: 0;
+          padding: 0;
+          width: 49%;
+          animation: myAnimRight 2s ease 0s 1 normal forwards;
+        }
+        @keyframes myAnimRight {
+          0% {
+            animation-timing-function: ease-in;
+            opacity: 0;
+            transform: translateX(250px);
+          }
+
+          38% {
+            animation-timing-function: ease-out;
+            opacity: 1;
+            transform: translateX(0);
+          }
+
+          55% {
+            animation-timing-function: ease-in;
+            transform: translateX(68px);
+          }
+
+          72% {
+            animation-timing-function: ease-out;
+            transform: translateX(0);
+          }
+
+          81% {
+            animation-timing-function: ease-in;
+            transform: translateX(32px);
+          }
+
+          90% {
+            animation-timing-function: ease-out;
+            transform: translateX(0);
+          }
+
+          95% {
+            animation-timing-function: ease-in;
+            transform: translateX(8px);
+          }
+
+          100% {
+            animation-timing-function: ease-out;
+            transform: translateX(0);
+          }
+        }
+
+        .border_left{
+          border-width: 1;
+          border-color: rgb(190, 190, 190);
+          padding: 0;
+          border-radius: 20px;
+          border: dashed;
+        }
+
+         .border_right{
+            border-width: 1;
+            border-color: rgb(177, 16, 16);
+            padding: 0;
+            border-radius: 20px;
+            border:dotted;
+        }
+
+        .border_hobbies{
+            border-width: 1;
+            border-color: rgb(92, 225, 15);
+            padding: 0;
+            border-radius: 20px;
+            border:double;
+        }
+
+        .border_hobbies_main{
+            border-width: 1;
+            border-color: rgb(35, 45, 28);
+            padding: 0;
+            border-radius: 20px;
+            border-style: solid;
+        }
+
+        .aboutMe_border{
+          border-width: 1;
+          border-color: rgb(0, 255, 242);
+          padding: 0;
+          border-radius: 20px;
+          border-style: solid;
+        }
+
+        .main_border{
+          border-width: 1;
+          border-color: rgb(255, 0, 166);
+          padding: 0;
+          border-radius: 20px;
+          border-style: solid;
+        }
+        
+        .achivements_border{
+          border-width: 2;
+          border-color: rgb(255, 98, 0);
+          padding: 0;
+          border-radius: 20px;
+          border-style: solid;
+        }
+
+        .scientific_border{
+          border-width: 2;
+          border-color: rgb(208, 255, 0);
+          padding: 0;
+          border-radius: 20px;
+          border-style: solid;
+        }
+
+        p{
+          padding: 10px;
+        }
+        @keyframes myAnimZ {
+          0% {
+            opacity: 0;
+            transform: rotate(-540deg) scale(0);
+          }
+
+          100% {
+            opacity: 1;
+            transform: rotate(0) scale(1);
+          }
+      }
+                @keyframes myAnim1 {
+                  0% {
+                    animation-timing-function: ease-in;
+                    opacity: 0;
+                    transform: scale(7);
+                  }
+        
+                  38% {
+                    animation-timing-function: ease-out;
+                    opacity: 1;
+                    transform: scale(1);
+                  }
+        
+                  55% {
+                    animation-timing-function: ease-in;
+                    transform: scale(1.5);
+                  }
+        
+                  72% {
+                    animation-timing-function: ease-out;
+                    transform: scale(1);
+                  }
+        
+                  81% {
+                    animation-timing-function: ease-in;
+                    transform: scale(1.24);
+                  }
+        
+                  89% {
+                    animation-timing-function: ease-out;
+                    transform: scale(1);
+                  }
+        
+                  95% {
+                    animation-timing-function: ease-in;
+                    transform: scale(1.04);
+                  }
+        
+                  100% {
+                    animation-timing-function: ease-out;
+                    transform: scale(1);
+                  }
+                }
+                
